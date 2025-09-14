@@ -1,0 +1,42 @@
+{
+  "name": "Bandlamoodi Ramya",
+  "tagline": "AI-ML Student | Future ready AI Engineer",
+  "about": "dedicated and consistent personality",
+  "skills": [
+    "Java",
+    "Python",
+    "WEb development"
+  ],
+  "projects": [
+    {
+      "name": "AI-Diet suggeter",
+      "desc": "recommends diet suggestions based on User health conditions",
+      "link": "no"
+    }
+  ],
+  "education": [
+    {
+      "degree": "SSC",
+      "school": "vchs",
+      "year": "2020",
+      "details": "10 cgpa"
+    },
+    {
+      "degree": "Intermediate",
+      "school": "SDMSMK",
+      "year": "2023",
+      "details": "81%"
+    },
+    {
+      "degree": "Btech",
+      "school": "PSCMR",
+      "year": "2027",
+      "details": "76%"
+    }
+  ],
+  "colors": {
+    "bg": "green",
+    "accent": "beige",
+    "fg": "yellow"
+  }
+}
