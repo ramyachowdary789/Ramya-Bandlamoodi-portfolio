@@ -93,16 +93,16 @@ except GithubException as e:
         print("❌ Repo creation failed:", e)
         exit(1)
 
-# --- 6. Prepare deployment folder ---
-deploy_folder = f"deployments/{repo_name}"
-if os.path.exists(deploy_folder):
-    nested_git = os.path.join(deploy_folder, ".git")
-    if os.path.exists(nested_git):
-        shutil.rmtree(nested_git)
-os.makedirs(deploy_folder, exist_ok=True)
+# --- 6. Save files in repo root ---
+# Remove any leftover nested .git in deployments folder if exists
+deployments_folder = "deployments"
+if os.path.exists(deployments_folder):
+    shutil.rmtree(deployments_folder)
 
-shutil.copy("index.html", deploy_folder)
-shutil.copy("profile.json", deploy_folder)
+# Files are already created in root: index.html, profile.json
+# Nothing more to copy
+print("✅ index.html and profile.json are in repo root for Git tracking.")
+
 
 # --- 7. Git add, commit, push ---
 os.chdir(os.path.abspath("."))
