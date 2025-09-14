@@ -1,5 +1,5 @@
 {
-  "name": "Ramya Bandlamoodi",
+  "name": "Bandlamoodi Ramya",
   "tagline": " Full Stack Developer",
   "about": "dedicated",
   "skills": [
@@ -9,8 +9,8 @@
   "projects": [],
   "education": [],
   "colors": {
-    "bg": "green",
+    "bg": "black",
     "accent": "pink",
-    "fg": "beige"
+    "fg": "green"
   }
 }
